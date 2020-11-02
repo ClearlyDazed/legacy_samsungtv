@@ -8,7 +8,7 @@ What I changed for this integration is that I enabled the custom selection of th
 
 Setup
 
-Download thes files (less the Readme) into a directory named legacy_samsungtv under the custom components directory.
+Download the files (less the Readme) into a directory named legacy_samsungtv under the custom components directory.
 The installation depends on your TV being on and SSDP discovery being enabled. The configuration only uses SSDP and there is no need for adding anything to the configuration YAML file. Wait for the notification and confirm the detected device.
 
 If your TV is first connected, you will need to accept Home Assistant on the TV to allow communication.
