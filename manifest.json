@@ -1,0 +1,21 @@
+{
+  "domain": "legacy_samsungtv",
+  "name": "Legacy Samsung TV",
+  "documentation": "https://github.com/ClearlyDazed/ha-samsungtv-legacy",
+  "requirements": [
+    "samsungTVlegacy[websocket]==0.1.1",
+    "samsungtvws==1.4.0"
+  ],
+  "ssdp": [
+    {
+      "st": "urn:samsung.com:device:RemoteControlReceiver:1"
+    }
+  ],
+  "dependencies": [],
+  "codeowners": [
+    "@escoand",
+	"@ClearlyDazed"
+  ],
+  "homeassistant": "0.115.0",
+  "config_flow": true
+}
