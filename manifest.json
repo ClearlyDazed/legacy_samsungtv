@@ -1,6 +1,7 @@
 {
   "domain": "legacy_samsungtv",
   "name": "Legacy Samsung TV",
+  "version": "1.0.0",	
   "documentation": "https://github.com/ClearlyDazed/legacy_samsungtv",
   "requirements": [
     "samsungTVlegacy[websocket]==0.1.1",
