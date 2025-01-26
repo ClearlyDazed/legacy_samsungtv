@@ -7,7 +7,6 @@ from functools import partial
 from typing import Any, Self
 from urllib.parse import urlparse
 
-import socket
 import voluptuous as vol
 import getmac
 
