@@ -8,6 +8,7 @@ from typing import Any
 from urllib.parse import urlparse
 
 import voluptuous as vol
+import socket
 
 import getmac
 
@@ -28,6 +29,7 @@ from homeassistant.core import Event, HomeAssistant, callback
 from homeassistant.exceptions import ConfigEntryAuthFailed, ConfigEntryNotReady
 from homeassistant.helpers import device_registry as dr, entity_registry as er
 from homeassistant.helpers.debounce import Debouncer
+from homeassistant.helpers.typing import ConfigType
 
 import homeassistant.helpers.config_validation as cv
 
