@@ -159,7 +159,7 @@ async def _async_update_ssdp_locations(hass: HomeAssistant, entry: ConfigEntry) 
 async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
     """Set up the Legacy Samsung TV integration."""
     if DOMAIN in config:
-#        entries_list = hass.config.entries.async_entries(DOMAIN)
+        entries_list = hass.config.entries.async_entries(DOMAIN)
         for entry_config in config[DOMAIN]:
             # get ip address
             ip_address = entry_config[CONF_HOST]
