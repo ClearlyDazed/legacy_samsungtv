@@ -171,7 +171,7 @@ async def async_setup(hass: HomeAssistant, config: ConfigType) -> bool:
                 if entry.data[CONF_HOST] == ip_address
             ]
             if not valid_entries:
-                _LOGGER.warning(
+                LOGGER.warning(
                     "Found configuration for device %s."
                     " Please reconfigure",
                     ip_address,
