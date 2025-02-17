@@ -13,4 +13,6 @@ The installation depends on your TV being ON and SSDP discovery being enabled. T
 
 If your TV is first connected, you will need to accept Home Assistant on the TV to allow communication.
 
+You can not turn on the TV with this integration.
+
 As always, use this at your own risk; I am not responsible for how you use it.
